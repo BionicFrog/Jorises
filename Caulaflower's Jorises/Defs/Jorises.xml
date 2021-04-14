@@ -80,7 +80,7 @@
 
   <PawnKindDef ParentName="BearBase">
     <defName>Bear_Grizzlythree</defName>
-    <label>among us Joris</label>
+    <label>Air force Joris</label>
     <race>Bear_Grizzlythree</race>
     <lifeStages>
       <li>
