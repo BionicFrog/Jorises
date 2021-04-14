@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  
+
+   <ThingDef ParentName="BaseBear">
+    <defName>Bear_Grizzlytwo</defName>
+    <label>Among us Joris</label>
+    <description>Amogus.</description>
+    <race>
+      <wildness>0.80</wildness>
+      <meatLabel>bear meat</meatLabel>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Bear_Grizzlytwo</defName>
+    <label>among us Joris</label>
+    <race>Bear_Grizzlytwo</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Bear/Bear</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(255,255,255)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Bear/Bear</texPath>
+          <drawSize>2</drawSize>
+          <color>(255,255,255)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Bear/Bear</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(255,255,255)</color>
+          <shadowData>
+            <volume>(0.0, 0.0, 0.0)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+   <ThingDef ParentName="BaseBear">
+    <defName>Bear_Grizzlythree</defName>
+    <label>Air force Joris</label>
+    <description>This patriotic Joris joined Air force.</description>
+    <race>
+      <wildness>0.80</wildness>
+      <meatLabel>bear meat</meatLabel>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Bear_Grizzlythree</defName>
+    <label>among us Joris</label>
+    <race>Bear_Grizzlythree</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Bear2/Bear</texPath>
+          <drawSize>1.4</drawSize>
+          <color>(255,255,255)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear2/Dessicated_Bear</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Bear2/Bear</texPath>
+          <drawSize>2</drawSize>
+          <color>(255,255,255)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Bear2/Bear</texPath>
+          <drawSize>2.7</drawSize>
+          <color>(255,255,255)</color>
+          <shadowData>
+            <volume>(0.0, 0.0, 0.0)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>
